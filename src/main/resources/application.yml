@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/backendproj
+    username: root
+    password: 1234
+  jpa:
+    show-sql: true
+    generate-ddl: true
+  jackson:
+    default-property-inclusion: non_null
